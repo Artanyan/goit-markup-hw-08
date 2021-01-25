@@ -1695,7 +1695,7 @@ footer {
   padding: 94px 15px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .container-project {
     margin-top: 60px;
     padding: 60px 15px;
