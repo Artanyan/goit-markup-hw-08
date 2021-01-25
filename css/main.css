@@ -845,17 +845,21 @@ header {
   padding: 94px 15px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  .container-about {
+    padding: 60px 15px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .container-about {
     width: 480px;
-    padding: 60px 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container-about {
     width: 768px;
-    padding: 60px 15px;
   }
 }
 
@@ -1046,17 +1050,21 @@ header {
   padding: 94px 15px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  .team-container {
+    padding: 60px 15px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .team-container {
     width: 480px;
-    padding: 60px 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .team-container {
     width: 768px;
-    padding: 60px 15px;
   }
 }
 
@@ -1234,17 +1242,21 @@ header {
   }
 }
 
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  .client-container {
+    padding: 60px 15px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .client-container {
     width: 480px;
-    padding: 60px 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .client-container {
     width: 768px;
-    padding: 60px 15px;
   }
 }
 
