@@ -1,14 +1,24 @@
+    header{
+        position: relative;
+    }
+
 .container-header{
-    position: relative;
+   
     display: flex;
     align-items: center;
-    
+
     margin-left: auto;
     margin-right: auto;
     padding: 0px 15px;
+    background-color: #fff;
     
-    @media screen and (min-width:$mobile){
-        width:$mobile
+    @media screen and (min-width:0) and (max-width:767px){
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 11;
     }
     @media screen and (min-width:$tablet){
         width:$tablet;
